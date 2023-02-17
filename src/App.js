@@ -22,7 +22,7 @@ const App = () => {
               <Route path=':userId' element={<SinglePage />} />
               <Route path='new' element={<AddNewCampus inputs={userInputs} title="Add New Campuss" />} />
             </Route>
-            <Route path='products'>
+            <Route path='Campus'>
               <Route index element={<List />} />
               <Route path=':productId' element={<SinglePage />} />
               <Route path='new' element={<AddNewCampus inputs={productInputs} title="Add New Product" />} />

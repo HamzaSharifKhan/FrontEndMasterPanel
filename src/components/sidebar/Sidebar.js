@@ -42,7 +42,7 @@ const Sidebar = () => {
                             <span> Admin</span>
                         </li>
                     </Link>
-                    <Link to='/products' style={{ textDecoration: "none" }}>
+                    <Link to='/Campus' style={{ textDecoration: "none" }}>
                         <li>
                             <StoreIcon className='icon' />
                             <span> Campus</span>
